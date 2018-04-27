@@ -1,8 +1,7 @@
-/* Import styles start here */
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
 
-@import "global-components/-global";
-@import "utilities/-utilities";
-@import "media-queries/-media-queries";
-
-/* Import styles end here */
-
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
