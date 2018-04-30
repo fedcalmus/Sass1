@@ -1,0 +1,29 @@
+/* Content styles */
+
+body {
+  font-size: $font-md;
+  color: $dark;
+  background-color: $blue;
+  font-weight: 400;
+  font-family: $font-lato;
+}
+
+.container {
+  width: 90%;
+  padding: 0 30px;
+}
+
+.clearAfter:after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+

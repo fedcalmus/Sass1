@@ -1,0 +1,17 @@
+$font-md: 18px;
+$font-l: 36px;
+$font-lato: 'Lato', sans-serif;;
+
+/* Headings */
+
+h6 {
+  font-size: $font-md;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
