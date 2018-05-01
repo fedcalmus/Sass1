@@ -8,15 +8,17 @@ body {
   font-family: $font-lato;
 }
 
+.clearAfter {
+  &::after {
+    content: " ";
+    clear: both;
+    display: block;
+  }
+}
+
 .container {
   width: 90%;
   padding: 0 30px;
-}
-
-.clearAfter:after {
-  content: " ";
-  clear: both;
-  display: block;
 }
 
 .floatRight {
@@ -30,3 +32,6 @@ body {
 .mainContent {
   padding: 50px 0;
 }
+
+
+

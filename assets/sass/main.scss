@@ -1,10 +1,10 @@
 /* Import styles start here */
 
 @import "utilities/utilities";
-@import "global-components/global-elements";
+@import "global-components/_global-components";
 @import "specific-components/specific-components";
 @import "media-queries/media-queries";
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import "font-awesome/fontawesome";
 
 /* Import styles end here */
 
